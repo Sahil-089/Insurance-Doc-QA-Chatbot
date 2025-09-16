@@ -53,7 +53,7 @@ Ensure you have the following installed:
 
 ### Installation
 1. Clone the repo:
-git clone https://github.com/SandeepGitGuy/Insurance_Document_Chatbot_RAG.git](https://github.com/Sahil-089/Insurance-Doc-QA-Chatbot.git
+git clone https://github.com/Sahil-089/Insurance-Doc-QA-Chatbot.git
 
 2. Navigate to the project directory:
 cd Insurance-Doc-QA-Chatbot
