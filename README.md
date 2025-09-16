@@ -1,13 +1,10 @@
-# RAG QA Chatbot for Insurance Documents  
-Effortless Question Answering on Insurance Documents Powered by RAG and Gemini Flash Model  
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)](https://www.python.org/)  
+# Insurance Document QA Chatbot (RAG-based)
+Effortless Question Answering on Insurance Documents Powered by RAG and Gemini Flash Model
 
 ---  
 
 ## ✨ About the Project  
-The RAG QA Chatbot is a robust solution for answering queries on insurance documents. Understanding and interpreting large, complex insurance policies can be challenging. This chatbot simplifies the process by combining document retrieval techniques with advanced generative AI models, delivering accurate answers in real-time.  
+A Retrieval-Augmented Generation (RAG) chatbot designed to answer natural-language queries over insurance policies and other policy documents. The system ingests PDFs, creates vector embeddings, and retrieves the most relevant passages to produce grounded, accurate answers using modern LLMs.
 
 ---  
 
@@ -56,10 +53,10 @@ Ensure you have the following installed:
 
 ### Installation
 1. Clone the repo:
-git clone https://github.com/SandeepGitGuy/Insurance_Document_Chatbot_RAG.git
+git clone https://github.com/SandeepGitGuy/Insurance_Document_Chatbot_RAG.git](https://github.com/Sahil-089/Insurance-Doc-QA-Chatbot.git
 
 2. Navigate to the project directory:
-cd Insurance_Document_Chatbot_RAG
+cd Insurance-Doc-QA-Chatbot
 
 3. Install the required dependencies:
 pip install -r requirements.txt
@@ -76,10 +73,8 @@ pip install -r requirements.txt
 - [Issue #2](Extracting Tables from PDF was also a challenge. Whole data processing logic was reworked with PdfPlumber to extract the data from tables in readable format and then appended in the correct sequence.)
 - [Issue #3](Cache layer was added in ChromaDB to prevent re-embedding of the same documents. This was done to avoid overloading the ChromaDB server with data and to make the retrieval process more efficient.)
 - [Issue #4](Another Cache layer was added to prevent re-search of the same queries. This was done to make the retrieval process more efficient.)
-- [Issue #5](Cross Encoder based Reranker was added to better select the most relevant passages from the document. This was done to improve the quality of the answers to the user queries.)
 - [Issue #6](Hardcoded API keys were replaced with input from user. This was done to make the project more secure and user-friendly.)
 - [Issue #7](Embedding generation using ChromaDB's Default model was replaced by OpenAI's Embedding Model. This was done to improve the quality of the answers to the user queries.)
-- [Issue #8](Changed 'Tempearture' parameter of OpenAI's Embedding Model to 0.1. This was done to improve the quality of the answers to the user queries so that the model doesn't generate irrelevant answers and produces reproducible and consistent results.)
 
 ---
 
@@ -110,16 +105,11 @@ This project serves as a solid foundation for building intelligent document-base
  
 ---
 
-## 🛡️ License
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 💬 Contact
 For any queries or feedback, feel free to reach out:
 
-- **Email**: sandy974278@gmail.com
-- **GitHub**: https://github.com/SandeepGitGuy
-- **LinkedIn**: www.linkedin.com/in/sandeepgowda24a319192
+- **Email**: sahil20072002@gmail.com
+- **GitHub**: https://github.com/Sahil-089
+- **LinkedIn**: https://www.linkedin.com/in/sahil-kumar-sahoo-500712378
 
 ---
